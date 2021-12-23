@@ -1,70 +1,100 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
+
 .hidden {
-    display:none;
+  display: none;
 }
 
-#weather{
-    text-align: right;
-    color : white;
-    text-shadow: -1px 0 #000, 0 1px #000, 1px 0 #000, 0 -1px #000;
+.middle {
+  text-align: center;
 }
 
-#clock{
-    font-size : 100px;
-    text-align: center;
-    color : white;
-    text-shadow: -1px 0 #000, 0 1px #000, 1px 0 #000, 0 -1px #000; 
+#weather {
+  text-align: right;
+  color: white;
 }
 
-#login-form{
-    font-size : 100px;
-    text-align: center;
-    color : white;
-    text-shadow: -1px 0 #000, 0 1px #000, 1px 0 #000, 0 -1px #000; 
-   
+#clock {
+  font-size: 100px;
+  color: white;
+  font-family: "Open Sans", sans-serif;
 }
 
-#greeting{
-    text-align: center;
-    color : white;
-    text-shadow: -1px 0 #000, 0 1px #000, 1px 0 #000, 0 -1px #000;
+#login-form {
+  font-size: 100px;
 }
 
-
-
-#quote{
-    text-align: center;
-    color : white;
-    text-shadow: -1px 0 #000, 0 1px #000, 1px 0 #000, 0 -1px #000;
+#greeting {
 }
 
-input {
-    background:transparent;
-    outline:none;
-    border:none;
-    border-bottom: solid 1px #ccc; padding:20px 0px 5px 0px; font-size:14pt;
-  }
+#quote {
+  position: absolute;
+  bottom: 0px;
+  text-shadow: -1px 0 #000, 0 1px #000, 1px 0 #000, 0 -1px #000;
+}
+
+.main {
+  text-align: center;
+
+  color: white;
+}
+
+#login-input {
+  width: 300px;
+  height: 50px;
+  font-size: 25px;
+  background: transparent;
+  border-top: none;
+  border-left: none;
+  border-bottom: 3px solid white;
+  border-right: none;
+  outline: none;
+  text-align: center;
+}
+
+#todo-input {
+  width: 300px;
+  height: 50px;
+  font-size: 25px;
+  background: transparent;
+  border-top: none;
+  border-left: none;
+  border-bottom: 3px solid white;
+  border-right: none;
+  outline: none;
+  text-align: center;
+}
 
 img {
-    background-size: cover;
-    position:fixed;
-    /*
+  background-size: cover;
+  position: fixed;
+  /*
     width:100%;
     height:100%;
     */
-    left: 0px;
-    top: 0px;
-    right:0px;
-    bottom:0px;
-    z-index: -1;
-    opacity:80%;
-    
-    }
-
- ul{
-    list-style:none;
+  left: 0px;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  z-index: -1;
+  opacity: 80%;
 }
 
-.cpl{
-    text-decoration: line-through;
+#todo-list {
+  list-style: none;
+  width: 300px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 0;
 }
- 
+
+.cpl {
+  text-decoration: line-through;
+}
+
+.todo-text {
+  float: left;
+}
+
+.todo-buttonBox {
+  text-align: right;
+}
